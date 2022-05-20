@@ -1,0 +1,46 @@
+@media all and (max-width: 800px) {
+
+    nav {
+        display: flex;
+        background-color: rgb(114, 29, 29);
+        height: 100px;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+    
+    nav a {
+        display: flex;
+        border-style: solid;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 50px;
+        width: 100px;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        border-color: burlywood;
+        color: burlywood;
+        text-decoration: none;
+       
+    }
+    
+    nav a:hover {
+        background-color: bisque;
+        color: black;
+    }
+    
+    
+
+
+
+    .menu-box { 
+        margin: 50px;
+        background-color: burlywood;
+        height: fit-content;
+        padding: 10px;
+        text-align: center;
+        width: 80%;
+        align-self: center;
+    
+    }
+}
